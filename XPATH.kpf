@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="F236DAE9-3847-4BD7-815A-E50B52BBE1B1" name="XPATH" kpf_version="2">
+<preference-set id="">
+</preference-set>
+<file url="output.xml" id="4928E03B-CAEE-4D38-823D-2ECA5C2F7DB8" name="output.xml">
+</file>
+<file url="pl_xml_samples/xml-xpath_read.pl" id="95DC0E6A-8174-4D4C-83D0-98D9B37DF12B" name="xml-xpath_read.pl">
+</file>
+<file url="pl_xml_samples/files/camelids.xml" id="D4FC7445-2C10-4124-B38E-291D05FC853A" name="camelids.xml">
+</file>
+<file url="test_hardware_nativeSOAP2.pl" id="C94C2EFC-6BC4-42D7-B185-A8DD9D1A8622" name="test_hardware_nativeSOAP2.pl">
+</file>
+</project>

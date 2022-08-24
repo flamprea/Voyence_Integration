@@ -1,0 +1,597 @@
+bless( {
+  'revisions' => [
+    bless( {
+      'resourceType' => 'REVISION',
+      'resourceName' => '1',
+      'resourceKey' => '0a141567d298e33f27334e6313010000'
+    }, 'ResourceIdentityInfo' ),
+    bless( {
+      'resourceType' => 'REVISION',
+      'resourceName' => '2',
+      'resourceKey' => '0a1415678d2de73f95e7a77713010000'
+    }, 'ResourceIdentityInfo' )
+  ],
+  'snmpLocation' => '',
+  'devicePolicyCompliance' => 'enum.compliancestate.unknown',
+  'deviceAlias' => undef,
+  'deviceType' => 'switch',
+  'vendorName' => 'Cisco',
+  'snmpContact' => '',
+  'latestRevision' => bless( {
+    'revisionNumber' => '2'
+  }, 'RevisionNumberInfo' ),
+  'comments' => [
+    {
+      'comment' => 'BladeLogic',
+      'date' => '2007-06-30T01:56:21.464Z',
+      'user' => 'sysadmin'
+    }
+  ],
+  'deviceTags' => [],
+  'interfaces' => [
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/9',
+        'resourceKey' => '0a14156707bdd13f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/17',
+        'resourceKey' => '0a14156703e7e03f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/6',
+        'resourceKey' => '0a1415670613e13f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'Vlan1',
+        'resourceKey' => '0a141567045fbd3f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 0,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/23',
+        'resourceKey' => '0a14156718f7ed3fa4334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/20',
+        'resourceKey' => '0a1415670b84ee3f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/18',
+        'resourceKey' => '0a1415670f8fa33f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/5',
+        'resourceKey' => '0a141567f9ecea3f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'Vlan23',
+        'resourceKey' => '0a141567198aeb3fa4334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 0,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/13',
+        'resourceKey' => '0a14156716c1e23fa4334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/22',
+        'resourceKey' => '0a141567ff88ee3f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'Vlan10',
+        'resourceKey' => '0a141567fc64d53f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => '255.255.255.0',
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => '10.20.10.3',
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/21',
+        'resourceKey' => '0a141567fb7aec3f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/2',
+        'resourceKey' => '0a1415670e66c73f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'Vlan64',
+        'resourceKey' => '0a1415670c5ee23f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 0,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/1',
+        'resourceKey' => '0a14156710abbe3f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'Vlan21',
+        'resourceKey' => '0a141567fe51ce3f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 0,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/4',
+        'resourceKey' => '0a1415671351993fa4334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'Vlan40',
+        'resourceKey' => '0a141567f77c923f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 0,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/16',
+        'resourceKey' => '0a1415670525c93f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/14',
+        'resourceKey' => '0a1415670182ec3f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/7',
+        'resourceKey' => '0a14156702aaea3f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/11',
+        'resourceKey' => '0a141567f878da3f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/12',
+        'resourceKey' => '0a1415671a88ed3fa4334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'Vlan22',
+        'resourceKey' => '0a1415671793d63fa4334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 0,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'GigabitEthernet0/1',
+        'resourceKey' => '0a14156714dce43fa4334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/3',
+        'resourceKey' => '0a14156712f03e3fa4334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'GigabitEthernet0/2',
+        'resourceKey' => '0a141567fa6fc63f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'Vlan20',
+        'resourceKey' => '0a1415670a8fec3f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 0,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/10',
+        'resourceKey' => '0a1415671109ed3fa4334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/8',
+        'resourceKey' => '0a14156700ead63f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/24',
+        'resourceKey' => '0a1415670889ef3f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/19',
+        'resourceKey' => '0a14156715ddea3fa4334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 1,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'Vlan2',
+        'resourceKey' => '0a1415670dd9e73f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 0,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' ),
+    bless( {
+      'interfaceIdentity' => bless( {
+        'resourceType' => 'INTERFACE',
+        'resourceName' => 'FastEthernet0/15',
+        'resourceKey' => '0a1415670958ca3f94334e6313010000'
+      }, 'ResourceIdentityInfo' ),
+      'subnetMask' => undef,
+      'peerIpAddress' => undef,
+      'operational' => 0,
+      'technologyType' => 'ethernet-csmacd',
+      'primaryIpAddress' => undef,
+      'inAdminState' => 1,
+      'interfaceTags' => [],
+      'interfaceType' => 'physical'
+    }, 'InterfaceInfo' )
+  ],
+  'latestHardwareRevisionDate' => '2007-06-25T14:34:35.687Z',
+  'osDescription' => '12.1(9)EA1c LAYER_3|MIN_DRAM_MEG=64',
+  'containingSite' => undef,
+  'latestHardwareRevision' => bless( {
+    'revisionNumber' => '1'
+  }, 'RevisionNumberInfo' ),
+  'resourceIdentityInfo' => bless( {
+    'resourceType' => 'DEVICE',
+    'resourceName' => 'bravo1',
+    'resourceKey' => '0a141567a89de63fb6ac4c6313010000'
+  }, 'ResourceIdentityInfo' ),
+  'mgmtIpAddress' => '10.20.10.3',
+  'deviceStatus' => 'operational',
+  'hardwareInfo' => bless( {
+    'nonVolatileDeviceInfo' => [],
+    'osVersion' => '12.1(9)EA1c LAYER_3|MIN_DRAM_MEG=64',
+    'model' => 'Catalyst 3550-24',
+    'memoryPoolInfo' => [
+      bless( {
+        'freeBytes' => '52403916',
+        'poolName' => 'Processor',
+        'usedBytes' => '4321688'
+      }, 'MemoryPoolInfo' ),
+      bless( {
+        'freeBytes' => '7441820',
+        'poolName' => 'I/O',
+        'usedBytes' => '942068'
+      }, 'MemoryPoolInfo' )
+    ]
+  }, 'DeviceHardwareInfo' ),
+  'systemDescription' => undef,
+  'serialNumber' => 'CHK0629W0WS',
+  'deviceName' => 'bravo1',
+  'businessData' => [],
+  'latestRevisionDate' => '2007-06-29T13:24:58.839Z',
+  'deviceHasConfig' => 1,
+  'documentUrls' => [],
+  'vendorModel' => 'Catalyst 3550-24',
+  'devicePackageId' => '2'
+}, 'OperationalDeviceInfo' )
