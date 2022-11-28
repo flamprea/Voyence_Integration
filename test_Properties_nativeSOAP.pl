@@ -37,13 +37,6 @@ my $network = 'BladeLogic Network';
 my $hostName= "$ARGV[0]";
 my $extendedOutput = "false";
 
-# Initialize
-# HARDCODED -- Must fix
-my $soap_host = 'voyance';
-my $soap_user = 'sysadmin';
-my $soap_pw = 'sysadmin';
-my $network = 'BladeLogic Network';
-
 my $soap_proxy = 'http://' . $soap_user . ':' . $soap_pw . '@' . $soap_host . ':8881/ws/api/36/services/ApiService';
 my $soap_uri = 'http://api.common.configmgr.powerup.com';
 
