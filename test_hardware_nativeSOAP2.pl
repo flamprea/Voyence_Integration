@@ -1,4 +1,4 @@
-#!perl –w
+#!perl â€“w
 
 # Script Name: Voyence Hardware Information
 # Version: 2.0
@@ -28,8 +28,8 @@ my $hostName= "$ARGV[0]";
 # Initialize
 # HARDCODED -- Must fix
 my $soap_host = 'voyance';
-my $soap_user = 'sysadmin';
-my $soap_pw = 'sysadmin';
+my $soap_user = '';
+my $soap_pw = '';
 my $network = 'BladeLogic Network';
 
 my $soap_proxy = 'http://' . $soap_user . ':' . $soap_pw . '@' . $soap_host . ':8881/ws/api/36/services/ApiService';
